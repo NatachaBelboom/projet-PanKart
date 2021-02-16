@@ -29,4 +29,12 @@ DESIGN: le maitre mot? ECO-CONCEPTION WEB. Moderne, beau, reflète l'époque dan
 Et pourquoi pas du design sonore?
 
 ## Contenu
-biographie du groupe + biographie par membre, galerie photos/videos, paroles des chansons, les news, coup de coeur/coup de gueule,  revues de presse?, contacts, booking?, liens vers les réseaux/streaming/app.
+* biographie du groupe + biographie par membre, 
+* galerie photos/videos, 
+* paroles des chansons, 
+* les news, 
+* coup de coeur/coup de gueule,  
+* revues de presse?, 
+* contacts, 
+* booking?, 
+* liens vers les réseaux/streaming/app.
