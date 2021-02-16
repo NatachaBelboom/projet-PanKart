@@ -13,3 +13,10 @@ Pour l'instant, PanKart est chez Gitstarter qui est une plateforme hébergeant e
 Ils ont aussi une page Facebook, Instagram où ils postent de l'actualité, des chansons(lives), photos,...
 
 Leurs chansons sont dipsponibles en streaming sur les sites de musique comme Spotify, Deezer, AppleMusic,... De plus, leur premier EP est sorti en avril 2020.
+
+## Charte graphique existante
+
+Leurs logos sont noir avec du jaune/orange. Le mot pankart est écrit avec le k en majuscule et à l'envers. 
+
+
+## Souhaits
