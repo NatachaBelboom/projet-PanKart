@@ -15,15 +15,26 @@ les liens vers leurs réseaux sociaux Facebook, Instagram, Gigstarter
 Le fait d'avoir gagné le prix de l'artiste de l'année du Gigstarter 2020 est un plus est figurera sur la landing page.
 
 Dans le menu de navigation, on retrouve les boutons qui mènent aux différentes pages. C'es-à-dire la page de biographie du groupe ainsi que de leurs membres, une page avec les chansons et paroles, une page de galerie et une page de concerts avec leurs disponibilités.
+En bas de la landing page il y aura une petite flèche animée avec un effet de sursaut. 
+Au premier abord on ne la voit pas beaucoup mais en sautillant elle attire le regard et donne envie à l'utilisateur de poursuivre la découverte du site en scrollant ou en cliquant dessus.
 
 A la suite de la landing page, demarre la section coup de gueule / coup de coeur. 
-Dans cette section, on retrouve des news, des faits divers Que ce soit positif ou négatif qui se passent au quotidien et dont le groupe veut dire ce qu'il en pense.
-Il y aurait la news en elle-même avec une brève explication et le point de vue du groupe, une photo pour appuyer le propos, la date ainsi que le lien vers le journal/site duquel elle provient
-Peut être faire la distinction entre coup de gueule et coup de coeur. on aurait donc par exemple 2 news coup de gueule et 2 news coup de coeur les plus actuelles.
-Si l'utilisateur veut connaitre plus de news, un bouton "en savoir plus" est présent. et sur cette page se trouve alors toutes les news auquelles le groupe à réagit.
+A chaque changement de section, le fond de couleur change aussi pour montrer a l'utilisateur qu'il change de section (Moodboard).
 
+Dans cette section, on retrouve des news, des faits divers qu'ils soient positif ou négatif et qui se passent au quotidien.
+Il y aurait la news en elle-même avec une brève explication et le point de vue du groupe, une photo pour appuyer le propos, la date ainsi que le lien vers le journal/site duquel elle provient.
+Il faudrait peut-être faire la distinction entre les news coup de gueule et les news coup de coeur. On aurait donc par exemple 2 news coup de gueule et 2 news coup de coeur les plus actuelles.
+Si l'utilisateur veut connaitre plus de news, un bouton "en savoir plus" est présent. Ce bouton mène à une page qui regroupe toutes les news auquelles le groupe a réagi.
 
-Tout au long de la page d'accueil, en arrière-plan, se trouvera les punchlines qu'ils aiment utiliser.
+Tout au long de la page d'accueil, en arrière-plan, se trouveront les punchlines que le groupe aime utiliser.
 Cela montre leur engagement et leurs valeurs. (Moodboard)
 
-A chaque changement de section, le fond de couleur change aussi. cela montre a l'utilisateur qu'il change de section
+
+(soit faire la section concert par la suite des news)
+L'utilisateur continue de scroller et arriver à la section suivante. Le fond change donc encore une fois de couleur. 
+Cette section regroupe les dates de concert du groupe. Elle donne les disponibilités, les concerts prévus et
+
+(soit faire une page distincte)
+
+
+A CONTINUER
