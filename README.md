@@ -14,7 +14,7 @@ les liens vers leurs réseaux sociaux Facebook, Instagram, Gigstarter
 
 Le fait d'avoir gagné le prix de l'artiste de l'année du Gigstarter 2020 est un plus est figurera sur la landing page.
 
-Dans le menu de navigation, on retrouve les boutons qui mènent aux différentes pages. C'est-à-dire la page de biographie du groupe ainsi que de leurs membres, une page avec les chansons et paroles, une page de galerie et une page de concerts avec leurs disponibilités.
+Dans le menu de navigation, on retrouve les boutons qui mènent aux différentes pages. C'est-à-dire la page de biographie du groupe ainsi que de leurs membres, une page avec les chansons et paroles, une page de galerie et une page de contact.
 En bas de la landing page il y aura une petite flèche animée avec un effet de sursaut. 
 Au premier abord on ne la voit pas beaucoup mais en sautillant elle attire le regard et donne envie à l'utilisateur de poursuivre la découverte du site en scrollant ou en cliquant dessus.
 
@@ -31,8 +31,6 @@ Si l'utilisateur veut connaitre plus de news, un bouton "en savoir plus" est pr�
 Tout au long de la page d'accueil, en arrière-plan, se trouveront les punchlines que le groupe aime utiliser.
 Cela montre leur engagement et leurs valeurs. (Moodboard)
 
-
-(soit faire la section concert par la suite des news)
 L'utilisateur continue de scroller et arriver à la section suivante. Le fond change donc encore une fois de couleur. 
 Cette section regroupe les dates de concert du groupe. Elle donne les disponibilités, les concerts prévus et il est éventuellement possible d'acheter des places pour un concert. 
 Un bouton est donc accessible et mène à un formulaire d'achat d'un site prévu à cet effet.
@@ -46,4 +44,11 @@ En scrollant on découvre des photos avec des personnes. Ce sont les membres du 
 L'utilisateur continue de naviguer en allant à la page "musiques". Cette page contient les chansons du groupe avec leur date de sortie. 
 Elles sont regroupées en liste (Moodboard) et il est possible d'écouter n'importe quelle chanson grâce à un bouton "play". Une fois une musique lancée, les paroles apparaissent grâce à une animation. 
 D'autres fonctionnalités sont présentes comme le fait de pouvoir "liker" une chanson. Cela peut-être intéressant pour montrer au groupe ce que les fans apprécient. 
+
+Sur cette page, on nous informe aussi que leur premier EP vient de sortir et qu'il est possible de l'acheter ou le commander grâce à un bouton. Ce bouton renvoie vers le site de l'achat
+En ce qui concerne la page "galerie", elle contient des photos du groupe en concert, des videos,... Il est possible d'agrandir l'image en cliquant dessus ainsi que de lancer les videos.
+
+Pour la page de contact, elle renvoie un formulaire pour poser toute éventuelle question, pour un booking. On y retrouve toutes les informations pour contacter le groupe, adresse mail.
+
+Envisager une page presse. elle contiendrait des extraits des revues de presse avec à chaque fois le lien correspondant à l'article entier. Cela permettrait de montrer à l'uitlisateur ce que les médias pensent du groupe.
 
