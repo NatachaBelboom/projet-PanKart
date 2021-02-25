@@ -12,21 +12,21 @@ En arrivant sur le site de PanKart, on tombe directement sur une photo du groupe
 On est dans l'ambiance des concerts, de leur univers. On a aussi le logo existant, 
 les liens vers leurs réseaux sociaux Facebook, Instagram, Gigstarter
 
-Le fait d'avoir gagné le prix de l'artiste de l'année du Gigstarter 2020 est un plus est figurera sur la landing page.
+Le fait d'avoir gagné le prix de l'artiste de l'année du Gigstarter 2020 est un plus et figurera sur la landing page.
 
 Dans le menu de navigation, on retrouve les boutons qui mènent aux différentes pages. C'est-à-dire la page de biographie du groupe ainsi que de leurs membres, une page avec les chansons et paroles, une page de galerie et une page de contact.
 En bas de la landing page il y aura une petite flèche animée avec un effet de sursaut. 
 Au premier abord on ne la voit pas beaucoup mais en sautillant elle attire le regard et donne envie à l'utilisateur de poursuivre la découverte du site en scrollant ou en cliquant dessus.
 
 A la suite de la landing page, demarre la section coup de gueule / coup de coeur. 
-A chaque changement de section, le fond de couleur change aussi pour montrer a l'utilisateur qu'il change de section (Moodboard).
+A chaque changement de section, le fond de couleur change aussi pour montrer à l'utilisateur qu'il change de section (Moodboard).
 
 Le contenu de la seconde section vient, au fur et à mesure du scroll, recouvrir la page d'accueil (Moodboard).
 
 Dans cette section, on retrouve des news, des faits divers qu'ils soient positif ou négatif et qui se passent au quotidien.
 Il y aurait la news en elle-même avec une brève explication et le point de vue du groupe, une photo pour appuyer le propos, la date ainsi que le lien vers le journal/site duquel elle provient.
 Il faudrait peut-être faire la distinction entre les news coup de gueule et les news coup de coeur. On aurait donc par exemple 2 news coup de gueule et 2 news coup de coeur les plus actuelles.
-Si l'utilisateur veut connaitre plus de news, un bouton "en savoir plus" est présent. Ce bouton mène à une page qui regroupe toutes les news auquelles le groupe a réagi.
+Si l'utilisateur veut connaitre plus de news, un bouton "en savoir plus" est présent. Ce bouton mène à une page qui regroupe toutes les news auxquelles le groupe a réagi.
 
 Tout au long de la page d'accueil, en arrière-plan, se trouveront les punchlines que le groupe aime utiliser.
 Cela montre leur engagement et leurs valeurs. (Moodboard)
@@ -45,10 +45,10 @@ L'utilisateur continue de naviguer en allant à la page "musiques". Cette page c
 Elles sont regroupées en liste (Moodboard) et il est possible d'écouter n'importe quelle chanson grâce à un bouton "play". Une fois une musique lancée, les paroles apparaissent grâce à une animation. 
 D'autres fonctionnalités sont présentes comme le fait de pouvoir "liker" une chanson. Cela peut-être intéressant pour montrer au groupe ce que les fans apprécient. 
 
-Sur cette page, on nous informe aussi que leur premier EP vient de sortir et qu'il est possible de l'acheter ou le commander grâce à un bouton. Ce bouton renvoie vers le site de l'achat
+Sur cette page, on nous informe aussi que leur premier EP vient de sortir et qu'il est possible de l'acheter ou le commander grâce à un bouton. Ce bouton renvoie vers le site de l'achat.
 En ce qui concerne la page "galerie", elle contient des photos du groupe en concert, des videos,... Il est possible d'agrandir l'image en cliquant dessus ainsi que de lancer les videos.
 
 Pour la page de contact, elle renvoie un formulaire pour poser toute éventuelle question, pour un booking. On y retrouve toutes les informations pour contacter le groupe, adresse mail.
 
-Envisager une page presse. elle contiendrait des extraits des revues de presse avec à chaque fois le lien correspondant à l'article entier. Cela permettrait de montrer à l'uitlisateur ce que les médias pensent du groupe.
+Envisager une page presse. Elle contiendrait des extraits des revues de presse avec à chaque fois le lien correspondant à l'article entier. Cela permettrait de montrer à l'utilisateur ce que les médias pensent du groupe.
 
