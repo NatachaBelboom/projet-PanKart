@@ -16,20 +16,24 @@ Tout public à partir de 20 +/- localisé pas spécialement qu'en Belgique.
 ## Cahier des charges / brief du client
  
 1. Description 
+
  Groupe engagé. Leur communauté de fan est restreinte mais fidèle et grâce à eux (en quelque sorte), ils ont gagné le concours Gigstarter artiste de l'année 2020.
  Pour l'instant, on peut retrouver PanKart sur Gitstarter qui est une plateforme hébergeant environs 9000 artistes, Facebook, Instagram.
  Leurs chansons sont dipsponibles en streaming sur les sites de musique comme Spotify, Deezer, AppleMusic,... De plus, leur premier EP est sorti en avril 2020.
  Double objectif: 1. avoir un max de dates et être visible. Donner envie aux gens de les "connaître". 2. Faire passer leurs coups de gueule et leurs coups de coeur niveau actualité et bien d'autre
  
 2. Charte graphique
+
  Le logo est noir avec du jaune/orange. Le mot pankart est écrit avec le k en majuscule et à l'envers.  (Reprendre ses couleurs dans le site)
  
 3. Souhaits
+
  TECHNIQUE : HTML5 et responsive et désir d'être autonome par la suite.
  DESIGN: le maitre mot? ECO-CONCEPTION WEB. Moderne, beau, reflète l'époque dans laquelle on est, donne envie de rester sur le site et met en avant les valeurs du groupe.
  Et pourquoi pas du design sonore?
  
  4. Contenu
+ 
  * biographie du groupe + biographie par membre, 
  * galerie photos/videos, 
  * paroles des chansons, 
