@@ -60,7 +60,7 @@ Tout public à partir de 20 +/- localisé pas spécialement qu'en Belgique.
         * Information sur la victoire du concours Gigstarter artiste de l'année 2020
         
    2. Section coup de coeur / coup de gueule
-        * **Contenu :** news, articles positifs et négatifs
+        * Contenu: news, articles positifs et négatifs
         * changement de section -> changement de couleur de fond. On passe de l'image de fond à un fond uni coloré pour marquer le changement.
         * Le contenu vient au fur et à mesure recouvrir la page d'accueil.
         * news en elle-même avec brève explication, points de vue du groupe, photo pour appuyer le propos, la date et le lien vers l'article complet.
