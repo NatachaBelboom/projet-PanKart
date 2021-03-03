@@ -73,25 +73,25 @@ Tout public à partir de 20 +/- localisé pas spécialement qu'en Belgique.
         * (Pour l'instant, cette section est vide -> corona)
         
 ### Page biographie groupe + membres
-* Même navigation que dans la page d'accueil
 * Cette page reprend la biographie du groupe et les biographies des membres.
 * Biographie du groupe: 
     * Description et photos du groupe, informations sur vos convictions et votre style musical.
 * Biographie des membres:
     * Liste de photos avec les membres. Au clic d'une photo, la biographie apparait.
+* Même navigation que dans la page d'accueil
        
 ### Page musiques
-* Même navigation que sur la page d'accueil
 * Contient vos chansons avec leur date de sortie.
+* Même navigation que sur la page d'accueil
 * Regroupées en liste et possibilité d'écouter les morceaux. La musique lancée, elle se distingue des autres grâce à une couleur qui vient la souligner en arrière-plan.
 * Les paroles apparaissent grâce à une animation une fois la musique lancée.
 * Texte informant la sortie de votre EP et possibilité de l'acheter ou le commander grâce à un bouton -> mène à un formulaire
 
 ### Page galerie 
-* Meme menu de navigation que sur les autres pages.
 * Photos et vidéos 
+* Meme menu de navigation que sur les autres pages.
 
 ### Page de contact
-* Meme menu de navigation que sur les autres pages.
 * Formulaire 
+* Meme menu de navigation que sur les autres pages.
 * Informations de contact, adresse mail
