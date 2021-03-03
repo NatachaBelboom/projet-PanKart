@@ -55,7 +55,7 @@ Tout public à partir de 20 +/- localisé pas spécialement qu'en Belgique.
         * Contenu: votre logo, une photo, un menu de navigation et les liens vers vos réseaux sociaux.
         * Votre logo et la photo en fond nous met dans l'ambiance. Un texte introductif accompagne la photo avec un lien vers la page des membres
         * Le menu contient plusieurs boutons : la biographie, les chansons, une galerie photos/vidéos et un bouton de contact. Il est placé en haut à droite
-        * Les liens vers vos résaeaux sociaux ont tous les mêmes style. Et sont placés à la verticale l'un en dessous de l'autre. Ils sont mis en évidence grâce à une couleur.
+        * Les liens vers vos réseaux sociaux ont tous les mêmes style. Et sont placés à la verticale l'un en dessous de l'autre. Ils sont mis en évidence grâce à une couleur.
         * Flèche animée avec un effet de sursaut dans le bas de la page pour attirer le regard et donner envie à l'utilisateur de poursuivre sa découverte du site. (cliquable + scroll)
         * Information sur la victoire du concours Gigstarter artiste de l'année 2020
         
