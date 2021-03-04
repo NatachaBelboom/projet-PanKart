@@ -48,85 +48,89 @@ Tout public à partir de 20 +/- localisé pas spécialement qu'en Belgique.
  
 ## Plan du site 
 1. Page d'accueil 
-    * Votre logo
-    * Une photo
-    * Menu de navigation
-    * Liens vers réseaux sociaux
-    * Bouton "qui sommes-nous" -> mène à la biographie
+* Votre logo
+* Une photo
+* Menu de navigation
+* Information sur la victoire du concours Gigstarter artiste de l'année 2020
+* Liens vers réseaux sociaux
+* Bouton "qui sommes-nous" -> mène à la biographie
     
 2. Page coups de gueule / coups de coeur
-    * résumé de l'article
-    * avis positif ou négatif
-    * Photo
-    
+* résumé de l'article
+* avis positif ou négatif
+* Photo
+
 3. Page concert
-    * Dates de concert + lieu
-    * Lien vers formulaire d'achat
+* Dates de concert + lieu
+* Lien vers formulaire d'achat
     
 4. Page biographie 
-    * Biographie du groupe avec description
-    * Biographies des membres
-    * Photos de chaque membre
-    
+* Biographie du groupe avec description
+* Biographies des membres + informations sur les convictions et le style musical
+* Photos de chaque membre
+
 5. Page musiques
-    * Liste des chansons + date 
-    * Paroles 
-    * EP disponible -> renvoie vers un formulaire d'achat
+* Liste des chansons + date 
+* Paroles 
+* EP disponible -> renvoie vers un formulaire d'achat
     
 6. Page galerie
-    * Photos 
-    * Vidéos
-    
+* Photos 
+* Vidéos
+
 7. Page contact
-    * Informations de contact
-    * Formulaire
+* Informations de contact
+* Formulaire
 
 
 ## Stratégie
-### Page d'accueil
- Tout au long de la page d'accueil se trouveront en arrière-plan les punchlines que vous aimez utiliser.
+Le menu de navigation est commun à toutes les pages. Il se compose de différents boutons qui répertorie les pages. 
+Le bouton de la page courante est souligné. Cela permet à l'utilisateur de se situer dans le site.
+Le logo permet de retourner sur la page d'accueil.
  
-   1.  Landing page
-        * Contenu: votre logo, une photo, un menu de navigation et les liens vers vos réseaux sociaux.
-        * Votre logo et la photo en fond nous met dans l'ambiance. Un texte introductif accompagne la photo avec un lien vers la page des membres
-        * Le menu contient plusieurs boutons : la biographie, les chansons, une galerie photos/vidéos et un bouton de contact. Il est placé en haut à droite
-        * Les liens vers vos réseaux sociaux ont tous les mêmes style. Et sont placés à la verticale l'un en dessous de l'autre. Ils sont mis en évidence grâce à une couleur.
-        * Flèche animée avec un effet de sursaut dans le bas de la page pour attirer le regard et donner envie à l'utilisateur de poursuivre sa découverte du site. (cliquable + scroll)
-        * Information sur la victoire du concours Gigstarter artiste de l'année 2020
+### Page d'accueil
+Tout au long de la page d'accueil se trouveront en arrière-plan les punchlines que vous aimez utiliser.
+Le style de la page est assez foncé avec des zones de couleurs jaune/orange comme dans votre logo. 
+
+   1. Présentation
+    Votre logo et la photo en fond nous met dans l'ambiance. Un texte introductif accompagne la photo avec un lien vers la page des membres.
+    Les liens vers vos réseaux sociaux ont tous les mêmes styles. Ils sont placés à la verticale l'un en dessous de l'autre et au survol, ils sont mis en évidence grâce à une couleur.
+    Il y a aussi une flèche animée avec un effet de sursaut dans le bas de la page pour attirer le regard et donner envie à l'utilisateur de poursuivre sa découverte du site. (cliquable + scroll)
         
    2. Section coup de coeur / coup de gueule
-        * Contenu: news, articles positifs et négatifs
-        * changement de section -> changement de couleur de fond. On passe de l'image de fond à un fond uni coloré pour marquer le changement.
-        * Le contenu vient au fur et à mesure recouvrir la page d'accueil.
-        * news en elle-même avec brève explication, points de vue du groupe, photo pour appuyer le propos, la date et le lien vers l'article complet.
-        * Que les news les plus récentes sont affichées. Un bouton est la pour en découvrir les suivantes.
+    A chaque changement de section, la couleur de fond change aussi. Ici, on passe de l'image de fond à un fond uni plus coloré.
+    Le contenu de cette section vient au fur et à mesure recouvrir la page d'accueil.
+    Les articles sont diposés de manière à ce qu'on ne voit que les premiers pour plus de lisibilité et sobriété. Un bouton est disponible pour découvrir les suivantes.
+    L'avis du groupe est affiché à côté de la photo de l'article. Un lien vers l'article en entier est présent.
         
    3. Section concert
-        * Le fond change encore une fois de couleur car on change de section.
-        * Cette section regroupe les dates de concert, donne les disponibilités, les concerts prévus. Possibilité d'acheter des places de concert.
-        * Lien vers un formulaire d'achat d'un site prévu à cet effet.
-        * (Pour l'instant, cette section est vide -> corona)
+    Le fond change encore une fois de couleur car on change de section.
+    Les dates sont listées une par une. Cette section est très aérée, elle permet ainsi à l'utilisateur de voir directement les informations qui le concerne.
+    Le bouton pour acheter une place de concert se démarque du reste. Il est coloré et s'agrandit au survol.    
         
 ### Page biographie groupe + membres
-* Cette page reprend la biographie du groupe et les biographies des membres.
-* Biographie du groupe: 
-    * Description et photos du groupe, informations sur vos convictions et votre style musical.
-* Biographie des membres:
-    * Liste de photos avec les membres. Au clic d'une photo, la biographie apparait.
-* Même navigation que dans la page d'accueil
+1. Biographie du groupe
+
+Une photo du groupe est affichée à côté de la biographie. Le fond de la page est blanc pour bien visualier le changement de page. 
+        
+2. Biographie des membres:
+
+Les photos des membres sont disposées les unes à côté des autres. Au clic d'une photo, la biographie apparait juste en dessous. 
+La photo devient alors plus imposante pour bien marquer le lien entre le membre du groupe et sa biographie.
        
 ### Page musiques
-* Contient vos chansons avec leur date de sortie.
-* Même navigation que sur la page d'accueil
-* Regroupées en liste et possibilité d'écouter les morceaux. La musique lancée, elle se distingue des autres grâce à une couleur qui vient la souligner en arrière-plan.
-* Les paroles apparaissent grâce à une animation une fois la musique lancée.
-* Texte informant la sortie de votre EP et possibilité de l'acheter ou le commander grâce à un bouton -> mène à un formulaire
+Les chansons sont listées l'une après les autres. On remarque un bouton "play".
+Le fond est foncé, le bouton play est jaune et les chansons sont séparées par une ligne. Mais au survol, les couleurs s'inversent. 
+La zone survolée devient jaune et le bouton play se noircit.
+Une fois une musique lancée, les paroles apparaissent grâce à une animation. Une demi page apparait vers la droite par dessus le reste. 
+Ainsi, on voit toujours la liste des chansons et les paroles. Un bouton retour en forme de croix est présent pour enlever les paroles.
 
 ### Page galerie 
-* Photos et vidéos 
-* Meme menu de navigation que sur les autres pages.
+Les photos sont affichées en grand. Une photo à la fois et possibilité de les faire tourner grâce à un slider. 
+Il est possible aussi d'afficher la photo en plein écran en cliquant dessus.
+
+Même principe pour les vidéos mis à part que quand on clique sur une vidéo elle se lance.
 
 ### Page de contact
-* Formulaire 
-* Meme menu de navigation que sur les autres pages.
-* Informations de contact, adresse mail
+Le formualaire de contact comprend une adresse mail, le sujet et un message. Encore une fois, le bouton envoyer se distingue du reste grâce à une couleur et un agrandissement au survol.
+Un message de confirmation s'affiche par dessus le reste pour aider l'utilisateur.
