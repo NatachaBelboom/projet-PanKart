@@ -47,37 +47,37 @@ Tout public à partir de 20 +/- localisé pas spécialement qu'en Belgique.
  * liens vers les réseaux/streaming/app.
  
 ## Plan du site 
-* Page d'accueil 
+1. Page d'accueil 
     * Votre logo
     * Une photo
     * Menu de navigation
     * Liens vers réseaux sociaux
     * Bouton "qui sommes-nous" -> mène à la biographie
     
-* Page coups de gueule / coups de coeur
+2. Page coups de gueule / coups de coeur
     * résumé de l'article
     * avis positif ou négatif
     * Photo
     
-* Page concert
+3. Page concert
     * Dates de concert + lieu
     * Lien vers formulaire d'achat
     
-* Page biographie 
+4. Page biographie 
     * Biographie du groupe avec description
     * Biographies des membres
     * Photos de chaque membre
     
-* Page musiques
+5. Page musiques
     * Liste des chansons + date 
     * Paroles 
     * EP disponible -> renvoie vers un formulaire d'achat
     
-* Page galerie
+6. Page galerie
     * Photos 
     * Vidéos
     
-* Page contact
+7. Page contact
     * Informations de contact
     * Formulaire
 
