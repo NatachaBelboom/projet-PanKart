@@ -93,20 +93,23 @@ Tout au long de la page d'accueil se trouveront en arrière-plan les punchlines 
 Le style de la page est assez foncé avec des zones de couleurs jaune/orange comme dans votre logo. 
 
    1. Présentation
-    Votre logo et la photo en fond nous met dans l'ambiance. Un texte introductif accompagne la photo avec un lien vers la page des membres.
-    Les liens vers vos réseaux sociaux ont tous les mêmes styles. Ils sont placés à la verticale l'un en dessous de l'autre et au survol, ils sont mis en évidence grâce à une couleur.
-    Il y a aussi une flèche animée avec un effet de sursaut dans le bas de la page pour attirer le regard et donner envie à l'utilisateur de poursuivre sa découverte du site. (cliquable + scroll)
+
+Votre logo et la photo en fond nous met dans l'ambiance. Un texte introductif accompagne la photo avec un lien vers la page des membres.
+Les liens vers vos réseaux sociaux ont tous les mêmes styles. Ils sont placés à la verticale l'un en dessous de l'autre et au survol, ils sont mis en évidence grâce à une couleur.
+Il y a aussi une flèche animée avec un effet de sursaut dans le bas de la page pour attirer le regard et donner envie à l'utilisateur de poursuivre sa découverte du site. (cliquable + scroll)
         
    2. Section coup de coeur / coup de gueule
-    A chaque changement de section, la couleur de fond change aussi. Ici, on passe de l'image de fond à un fond uni plus coloré.
-    Le contenu de cette section vient au fur et à mesure recouvrir la page d'accueil.
-    Les articles sont diposés de manière à ce qu'on ne voit que les premiers pour plus de lisibilité et sobriété. Un bouton est disponible pour découvrir les suivantes.
-    L'avis du groupe est affiché à côté de la photo de l'article. Un lien vers l'article en entier est présent.
+
+A chaque changement de section, la couleur de fond change aussi. Ici, on passe de l'image de fond à un fond uni plus coloré.
+Le contenu de cette section vient au fur et à mesure recouvrir la page d'accueil.
+Les articles sont diposés de manière à ce qu'on ne voit que les premiers pour plus de lisibilité et sobriété. Un bouton est disponible pour découvrir les suivantes.
+L'avis du groupe est affiché à côté de la photo de l'article. Un lien vers l'article en entier est présent.
         
    3. Section concert
-    Le fond change encore une fois de couleur car on change de section.
-    Les dates sont listées une par une. Cette section est très aérée, elle permet ainsi à l'utilisateur de voir directement les informations qui le concerne.
-    Le bouton pour acheter une place de concert se démarque du reste. Il est coloré et s'agrandit au survol.    
+
+Le fond change encore une fois de couleur car on change de section.
+Les dates sont listées une par une. Cette section est très aérée, elle permet ainsi à l'utilisateur de voir directement les informations qui le concerne.
+Le bouton pour acheter une place de concert se démarque du reste. Il est coloré et s'agrandit au survol.    
         
 ### Page biographie groupe + membres
 1. Biographie du groupe
