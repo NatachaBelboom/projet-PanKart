@@ -139,3 +139,10 @@ Le formulaire de contact comprend une adresse mail, le sujet et un message. Enco
 Un message de confirmation s'affiche par dessus le reste pour aider l'utilisateur.
 
 ## Wireframe
+![accueil](https://user-images.githubusercontent.com/73905589/112599922-d343f800-8e10-11eb-9fa3-62696c994fad.png)
+![biographie](https://user-images.githubusercontent.com/73905589/112599929-d50dbb80-8e10-11eb-9062-f514d01b19d5.png)
+![contact](https://user-images.githubusercontent.com/73905589/112599935-d63ee880-8e10-11eb-9e5b-950d3d0f6584.png)
+![galerie](https://user-images.githubusercontent.com/73905589/112599937-d6d77f00-8e10-11eb-8b07-3b5419a299bb.png)
+![musique + paroles](https://user-images.githubusercontent.com/73905589/112599938-d7701580-8e10-11eb-98ff-cf6dc1015f93.png)
+![musique](https://user-images.githubusercontent.com/73905589/112599941-d808ac00-8e10-11eb-8584-7f3322c41a88.png)
+![news](https://user-images.githubusercontent.com/73905589/112599942-d8a14280-8e10-11eb-97f0-fdd293506a59.png)
