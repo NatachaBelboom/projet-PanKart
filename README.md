@@ -132,8 +132,10 @@ Ainsi, on voit toujours la liste des chansons et les paroles. Un bouton retour e
 Les photos sont affichées en grand. Une photo à la fois et possibilité de les faire tourner grâce à un slider. 
 Il est possible aussi d'afficher la photo en plein écran en cliquant dessus.
 
-Même principe pour les vidéos mis à part que quand on clique sur une vidéo elle se lance.
+Même principe pour les vidéos sauf qu'elle se lance quand on clique dessus.
 
 ### Page de contact
-Le formualaire de contact comprend une adresse mail, le sujet et un message. Encore une fois, le bouton envoyer se distingue du reste grâce à une couleur et un agrandissement au survol.
+Le formulaire de contact comprend une adresse mail, le sujet et un message. Encore une fois, le bouton envoyer se distingue du reste grâce à une couleur et un agrandissement au survol.
 Un message de confirmation s'affiche par dessus le reste pour aider l'utilisateur.
+
+## Wireframe
