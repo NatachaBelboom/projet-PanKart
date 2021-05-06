@@ -4,7 +4,7 @@
 /wp-content/*
 !/wp-content/themes
 wp-content/themes/*
-!/wp-content/themes/portfolio
+!/wp-content/themes/pankart
 
 !.gitignore
 !README.md
