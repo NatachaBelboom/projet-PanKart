@@ -8,3 +8,4 @@ wp-content/themes/*
 
 !.gitignore
 !README.md
+!brief.md
