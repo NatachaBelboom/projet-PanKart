@@ -1,0 +1,30 @@
+.logo{
+  width: 250px;
+  height: auto;
+  position: absolute;
+}
+.header{
+  background-color: #000;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 40px 120px ;
+}
+
+.menu__link__start{
+  text-decoration: none;
+  color: white;
+  padding: 0 30px;
+
+}
+
+.menu__social{
+  padding: 0;
+
+}
+.nav__active{
+  color: #F2B151;
+  font-weight: bold;
+}

@@ -1,0 +1,33 @@
+
+.end{
+  padding: 20px 142px;
+}
+
+.end__menu .title{
+  color: black;
+  font-family: 'Oswald', sans-serif;
+
+}
+.end__menu{
+  margin: 20px;
+}
+
+.end__menu a{
+  color: black;
+  padding: 5px 0;
+  font-size: 14px;
+}
+
+.menu__container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.menu__container nav{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}

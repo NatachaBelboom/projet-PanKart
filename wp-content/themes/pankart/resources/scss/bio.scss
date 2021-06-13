@@ -1,0 +1,30 @@
+.main__bio{
+  background-color: #161616;
+  padding: 120px 142px;
+}
+
+.bio__fig img{
+  width: 950px;
+  height: auto;
+  padding-right: 20px;
+}
+
+.bio__title{
+  color: #F2B151;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  padding-bottom: 40px;
+}
+.bio__biography{
+  color: white;
+  font-size: 1em;
+  line-height: 30px;
+}
+.bio{
+  width: 300px;
+}
+.bio__fig{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
