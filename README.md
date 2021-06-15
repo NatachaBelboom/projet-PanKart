@@ -62,17 +62,16 @@ Tout public à partir de 20 +/- localisé pas spécialement qu'en Belgique.
 
 3. Page concert
 * Dates de concert + lieu
-* Lien vers formulaire d'achat
+* Lien vers les renseignements
     
 4. Page biographie 
 * Biographie du groupe avec description
-* Biographies des membres + informations sur les convictions et le style musical
+* Biographies des membres 
 * Photos de chaque membre
 
 5. Page musiques
 * Liste des chansons + date 
 * Paroles 
-* EP disponible -> renvoie vers un formulaire d'achat
     
 6. Page galerie
 * Photos 
@@ -84,8 +83,8 @@ Tout public à partir de 20 +/- localisé pas spécialement qu'en Belgique.
 
 
 ## Stratégie
-Le menu de navigation est commun à toutes les pages. Il se compose de différents boutons qui répertorie les pages. 
-Le bouton de la page courante est souligné. Cela permet à l'utilisateur de se situer dans le site.
+Le menu de navigation est commun à toutes les pages. 
+Le bouton de la page courante est dans une autre couleur. Cela permet à l'utilisateur de se situer dans le site.
 Le logo permet de retourner sur la page d'accueil.
  
 ### Page d'accueil
@@ -95,38 +94,33 @@ Le style de la page est assez foncé avec des zones de couleurs jaune/orange com
    1. Présentation
 
 Votre logo et la photo en fond nous met dans l'ambiance. Un texte introductif accompagne la photo avec un lien vers la page des membres.
-Les liens vers vos réseaux sociaux ont tous les mêmes styles. Ils sont placés à la verticale l'un en dessous de l'autre et au survol, ils sont mis en évidence grâce à une couleur.
 Il y a aussi une flèche animée avec un effet de sursaut dans le bas de la page pour attirer le regard et donner envie à l'utilisateur de poursuivre sa découverte du site. (cliquable + scroll)
         
    2. Section coup de coeur / coup de gueule
 
-A chaque changement de section, la couleur de fond change aussi. Ici, on passe de l'image de fond à un fond uni plus coloré.
-Le contenu de cette section vient au fur et à mesure recouvrir la page d'accueil.
-Les articles sont diposés de manière à ce qu'on ne voit que les premiers pour plus de lisibilité et sobriété. Un bouton est disponible pour découvrir les suivantes.
+A chaque changement de section, la couleur de fond change aussi.
+Les articles sont diposés de manière à ce qu'on ne voit que les plus récents.
 L'avis du groupe est affiché à côté de la photo de l'article. Un lien vers l'article en entier est présent.
         
    3. Section concert
 
 Le fond change encore une fois de couleur car on change de section.
 Les dates sont listées une par une. Cette section est très aérée, elle permet ainsi à l'utilisateur de voir directement les informations qui le concerne.
-Le bouton pour acheter une place de concert se démarque du reste. Il est coloré et s'agrandit au survol.    
+Le bouton pour acheter une place de concert se démarque du reste.
         
 ### Page biographie groupe + membres
 1. Biographie du groupe
 
-Une photo du groupe est affichée à côté de la biographie. Le fond de la page est blanc pour bien visualier le changement de page. 
+Une photo du groupe est affichée à côté de la biographie.
         
 2. Biographie des membres:
 
-Les photos des membres sont disposées les unes à côté des autres. Au clic d'une photo, la biographie apparait juste en dessous. 
-La photo devient alors plus imposante pour bien marquer le lien entre le membre du groupe et sa biographie.
+La biographie d'un membre est affichée. Les photos des autres membres sont en dessous en forme de vignette. En appuyant dessus, la biogarphie change.
        
 ### Page musiques
-Les chansons sont listées l'une après les autres. On remarque un bouton "play".
-Le fond est foncé, le bouton play est jaune et les chansons sont séparées par une ligne. Mais au survol, les couleurs s'inversent. 
-La zone survolée devient jaune et le bouton play se noircit.
+Les chansons sont listées l'une après les autres. On remarque un bouton "play". 
 Une fois une musique lancée, les paroles apparaissent grâce à une animation. Une demi page apparait vers la droite par dessus le reste. 
-Ainsi, on voit toujours la liste des chansons et les paroles. Un bouton retour en forme de croix est présent pour enlever les paroles.
+Ainsi, on voit toujours la liste des chansons et les paroles.
 
 ### Page galerie 
 Les photos sont affichées en grand. Une photo à la fois et possibilité de les faire tourner grâce à un slider. 
@@ -136,13 +130,6 @@ Même principe pour les vidéos sauf qu'elle se lance quand on clique dessus.
 
 ### Page de contact
 Le formulaire de contact comprend une adresse mail, le sujet et un message. Encore une fois, le bouton envoyer se distingue du reste grâce à une couleur et un agrandissement au survol.
-Un message de confirmation s'affiche par dessus le reste pour aider l'utilisateur.
 
-## Wireframe
-![accueil](https://user-images.githubusercontent.com/73905589/112599922-d343f800-8e10-11eb-9fa3-62696c994fad.png)
-![biographie](https://user-images.githubusercontent.com/73905589/112599929-d50dbb80-8e10-11eb-9062-f514d01b19d5.png)
-![contact](https://user-images.githubusercontent.com/73905589/112599935-d63ee880-8e10-11eb-9e5b-950d3d0f6584.png)
-![galerie](https://user-images.githubusercontent.com/73905589/112599937-d6d77f00-8e10-11eb-8b07-3b5419a299bb.png)
-![musique + paroles](https://user-images.githubusercontent.com/73905589/112599938-d7701580-8e10-11eb-98ff-cf6dc1015f93.png)
-![musique](https://user-images.githubusercontent.com/73905589/112599941-d808ac00-8e10-11eb-8584-7f3322c41a88.png)
-![news](https://user-images.githubusercontent.com/73905589/112599942-d8a14280-8e10-11eb-97f0-fdd293506a59.png)
+
+

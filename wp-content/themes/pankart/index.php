@@ -1,18 +1,20 @@
 <?php get_header(); ?>
 <main class="main">
     <section class="text__color">
-        <div>
+        <h1 class="sro">Pankart </h1>
+        <div class="text">
             <p>Groupe de musique rock celtique engagé</p>
             <p>Gagnant du gigstarter groupe de l'année 2020</p>
             <p>Découvrez Pankart</p>
         </div>
         <div class="band__img">
-            <img src="http://pankart.local/wp-content/uploads/2021/06/PanKart5-1920x1920-1.png" alt="photo du groupe">
+            <img src="https://pankart.natacha-belboom.be/wp-content/themes/pankart/public/img/pankart.png" alt="photo du groupe">
         </div>
         <a href="" class="button__link orange">Voir leur performance</a>
-
     </section>
+
     <section class="presentation">
+        <h1 class="sro">Présentation</h1>
         <div>
             <h2>
                 Pankart
@@ -42,7 +44,7 @@
             <div class="infos">
                 <h2>Notre premier EP est sorti !</h2>
                 <a href="" class="button__link orange">Acheter</a>
-                <a href="" class="button__link black">Ecouter</a>
+                <a href="" class="button__link black border">Ecouter</a>
             </div>
         </div>
     </section>

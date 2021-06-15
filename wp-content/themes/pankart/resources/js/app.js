@@ -1,45 +1,14 @@
-/*const img = document.querySelector(".band__img img");
+const app = {
+    init(){
+        this.burgerMenu = document.querySelector('.more-info__header');
+        this.leNav = document.querySelector('.top__menu');
+        this.burgerMenu.addEventListener('click', (e) => {this.f_burger(e)} );
 
-const elementInView = (body) => {
-    const elementTop = body.getBoundingClientRect().top;
-
-    return (
-        elementTop <= (window.innerHeight || document.documentElement.clientHeight)
-    );
-};
-
-const displayScrollElement = (element) => {
-    img.classList.add("scrolled");
-};
-
-const hideScrollElement = (element) => {
-    img.classList.remove("scrolled");
-};
-
-const handleScrollAnimation = () => {
-    if (elementInView(el, 100)) {
-        displayScrollElement(el);
-    } else {
-        hideScrollElement(el);
+    },
+    f_burger(e){
+        e.preventDefault()
+        console.log(this);
+        this.leNav.classList.toggle('menu__responsive');
     }
-};
-
-window.addEventListener('scroll', () => {
-    handleScrollAnimation();
-});
-*/
-
-
-/*const scrollPercentage =
-    (document.documentElement.scrollTop + document.body.scrollTop) /
-    (document.documentElement.scrollHeight - document.documentElement.clientHeight);
-const maxPercentage = 0.2;
-console.log(scrollPercentage);
-window.addEventListener("scroll", function(e) {
-    console.log(e);
-
-    if(scrollPercentage >= maxPercentage){
-        img.style.padding = "0";
-    }
-
-});*/
+}
+app.init();

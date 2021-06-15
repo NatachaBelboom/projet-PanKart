@@ -1,6 +1,6 @@
 <?php /* Template Name: Page des news */
 get_header(); ?>
-<main class="main">
+<main class="news__main">
     <section class="news">
         <h1 class="sro">Toutes les news</h1>
         <div class="news__container">

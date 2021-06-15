@@ -93,6 +93,20 @@ function dw_custom_post_type()
             'slug' => 'band-bio'
         ]
     ]);
+    register_post_type('galerie', [
+        'label' => 'galerie',
+        'labels' => [
+            'singular_name' => 'Galerie',
+        ],
+        'description' => 'Galerie avec les photos/videos du groupe',
+        'public' => true,
+        'menu_position' => 5,
+        'supports' => ['title', 'editor', 'thumbnail'],
+        'menu_icon' => 'dashicons-format-gallery',
+        'rewrite' => [
+            'slug' => 'galery'
+        ]
+    ]);
 
 }
 

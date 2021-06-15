@@ -7,50 +7,23 @@
   \*******************************************************/
 /***/ (() => {
 
-/*const img = document.querySelector(".band__img img");
+var app = {
+  init: function init() {
+    var _this = this;
 
-const elementInView = (body) => {
-    const elementTop = body.getBoundingClientRect().top;
-
-    return (
-        elementTop <= (window.innerHeight || document.documentElement.clientHeight)
-    );
+    this.burgerMenu = document.querySelector('.more-info__header');
+    this.leNav = document.querySelector('.top__menu');
+    this.burgerMenu.addEventListener('click', function (e) {
+      _this.f_burger(e);
+    });
+  },
+  f_burger: function f_burger(e) {
+    e.preventDefault();
+    console.log(this);
+    this.leNav.classList.toggle('menu__responsive');
+  }
 };
-
-const displayScrollElement = (element) => {
-    img.classList.add("scrolled");
-};
-
-const hideScrollElement = (element) => {
-    img.classList.remove("scrolled");
-};
-
-const handleScrollAnimation = () => {
-    if (elementInView(el, 100)) {
-        displayScrollElement(el);
-    } else {
-        hideScrollElement(el);
-    }
-};
-
-window.addEventListener('scroll', () => {
-    handleScrollAnimation();
-});
-*/
-
-/*const scrollPercentage =
-    (document.documentElement.scrollTop + document.body.scrollTop) /
-    (document.documentElement.scrollHeight - document.documentElement.clientHeight);
-const maxPercentage = 0.2;
-console.log(scrollPercentage);
-window.addEventListener("scroll", function(e) {
-    console.log(e);
-
-    if(scrollPercentage >= maxPercentage){
-        img.style.padding = "0";
-    }
-
-});*/
+app.init();
 
 /***/ }),
 

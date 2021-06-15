@@ -1,0 +1,71 @@
+.main__music{
+  background-color: #161616;
+  padding: 5em 3.75em;
+}
+.music{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1.875em 0;
+}
+.music__info{
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.music__title{
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.125em;
+  width: 11.11111111111111em;
+}
+.music__album{
+  display: none;
+}
+.music__time{
+  font-size: 0.875em;
+}
+.music__play img{
+  width: 50%;
+  height: auto;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1200px){
+  .main__music{
+    padding: 7.5em 5em;
+    transition: .5s ease;
+  }
+
+  .music{
+    width: 50em;
+  }
+
+  .music__album{
+    padding-right: 11.875em;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .main__music{
+    padding: 7.5em 8.875em;
+    transition: .5s ease;
+  }
+
+  .music__title{
+    padding-right: 11.25em;
+    width: 18.75em;
+  }
+
+  .music__album{
+    padding-right: 11.875em;
+    display: block;
+  }
+
+  .music__play img{
+    width: 80%;
+  }
+}
