@@ -6,32 +6,86 @@
 .bio__fig img{
   width: 100%;
   height: auto;
+  margin-bottom: 1.5em;
 }
 
 .bio__title{
   color: #F2B151;
   font-family: 'Oswald', sans-serif;
   font-size: 25px;
-  padding: 40px 0;
-}
-.bio__biography{
-  color: white;
-  font-size: 1em;
-  line-height: 30px;
-}
-.bio{
-  width: 300px;
+  text-align: center;
+  padding-bottom: 40px;
 }
 
+.bio__biography{
+  color: white;
+  font-size: 0.9em;
+  line-height: 30px;
+  text-align: left;
+  width: 100%;
+  margin-bottom: 40px;
+}
+.bio-membre__small{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+.bio-membres__list{
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bio-membres__fig ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+  padding-top: 45em;
+  position: relative;
+  color: white;
+}
+.bio-membre__title{
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  color: #F2B151;
+
+}
+.bio-membre__instruments{
+  padding: 1em 0;
+}
+.bio-membre{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: .5s ease all;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: default;
+}
+.bio-membre__big{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 1.2em;
+}
+.bio-membre__description{
+  width: 300px;
+}
+.bio-membres__list:nth-child(1) .bio-membre {
+  opacity: 1;
+}
 
 @media screen and (min-width: 1000px){
   .main__bio{
-    background-color: #161616;
     padding: 120px 142px;
   }
 
   .bio__fig img{
-    width: 70%;
+    width: 60%;
     height: auto;
     padding-right: 20px;
   }
@@ -40,9 +94,75 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    justify-content: flex-start;
   }
   .bio__title{
     padding-top: 0;
     padding-bottom: 40px;
   }
+  .bio__biography{
+    font-size: 1em;
+    margin-bottom: 6.25em;
+  }
+  .bio-membre__small{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+  }
+  .bio-membres__list{
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .bio-membres__fig ul{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    justify-content: center;
+    padding-top: 25em;
+    position: relative;
+    color: white;
+  }
+  .bio-membre__title{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    color: #F2B151;
+
+  }
+  .bio-membre__instruments{
+    padding: 1em 0;
+  }
+  .bio-membre{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: .5s ease all;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: default;
+  }
+  .bio-membre__big{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 1.2em;
+  }
+  .bio-membre__description{
+    width: 400px;
+  }
+  .bio-membres__list:nth-child(1) .bio-membre {
+    opacity: 1;
+  }
+}
+
+
+@media screen and (min-width: 1920px) {
+  .biography-group, .biography-member{
+    padding-left: calc((100vw - 1920px) / 2);
+    padding-right:  calc((100vw - 1920px) / 2);
+  }
+
 }

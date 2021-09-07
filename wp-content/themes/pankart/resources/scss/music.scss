@@ -1,39 +1,67 @@
 .main__music{
   background-color: #161616;
-  padding: 5em 3.75em;
+  padding: 5em 1.5em;
 }
-.music{
+.musics__title{
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  padding-bottom: 2.5em;
+  text-align: center;
+  color: #F2B151;
+}
+.musics__container{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 1.875em 0;
 }
 .music__info{
   color: white;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  border-bottom: 2px solid #F2B151;
 }
 
 .music__title{
+  text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
-  font-size: 1.125em;
-  width: 11.11111111111111em;
+  font-weight: bold;
+  font-size: 1em;
+  letter-spacing: 0.2em;
+  color: #fff;
+  width: 15.6em;
 }
+
 .music__album{
   display: none;
 }
+
 .music__time{
-  font-size: 0.875em;
+  display: none;
 }
+
 .music__play img{
   width: 50%;
   height: auto;
   cursor: pointer;
 }
+.lyrics-off{
+  line-height: 1.5em;
+  text-align: center;
+  width: 100%;
+  color: #161616;
+}
 
-@media screen and (min-width: 800px) and (max-width: 1200px){
+.lyrics__container {
+  display: none;
+}
+
+@media screen and (min-width: 800px){
   .main__music{
     padding: 7.5em 5em;
     transition: .5s ease;
@@ -42,30 +70,62 @@
   .music{
     width: 50em;
   }
-
+  .music__time{
+    display: block;
+    font-size: 0.875em;
+  }
   .music__album{
-    padding-right: 11.875em;
+    padding-right: 5em;
     display: block;
   }
+
 }
 
 @media screen and (min-width: 1200px){
   .main__music{
-    padding: 7.5em 8.875em;
+    padding: 5em 8.75em;
     transition: .5s ease;
-  }
-
-  .music__title{
-    padding-right: 11.25em;
-    width: 18.75em;
+    position: relative;
   }
 
   .music__album{
-    padding-right: 11.875em;
     display: block;
   }
 
-  .music__play img{
-    width: 80%;
+   .lyrics-off{
+     line-height: 1.5em;
+     text-align: center;
+     width: 100%;
+     color: #161616;
+   }
+
+  .lyrics__container {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 400px;
+    overflow-y: scroll;
+    z-index: 10;
+    opacity: 0;
+    background-color: #F2B151;
+    padding: 40px 60px;
+  }
+
+  .musics__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 900px;
+  }
+
+}
+
+@media screen and (min-width: 1920px) {
+  .musics{
+    padding-left: calc((100vw - 1920px) / 2);
+    padding-right:  calc((100vw - 1920px) / 2);
   }
 }

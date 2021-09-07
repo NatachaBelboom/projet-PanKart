@@ -1,7 +1,9 @@
 .logo{
-  width: 30%;
+  width: 25%;
   height: auto;
   position: absolute;
+  z-index: 9999;
+
 }
 .header{
   background-color: #000;
@@ -16,7 +18,7 @@
 .menu__link__start{
   text-decoration: none;
   color: white;
-  padding: 0.625em 1.875em;
+  padding: 1em 1.875em;
 }
 
 .top__menu{
@@ -37,11 +39,12 @@
 
 .more-info__header {
   position: relative;
-  z-index: 901;
   width: 1.875em;
+  z-index: 999999;
   cursor: pointer;
 }
 .menu__responsive{
+  z-index: 99999;
   transform: translateY(0);
 }
 
@@ -52,16 +55,19 @@
 
 @media screen and (min-width: 800px) and (max-width: 1200px){
   .logo{
-    width: 15%;
+    width: 20%;
     transition: .5s ease;
+    z-index: 999;
+
   }
 }
 
 @media screen and (min-width: 1200px) {
   .logo{
-    width: 20%;
+    width: 15%;
     height: auto;
     position: absolute;
+    z-index: 999;
   }
   .header{
     background-color: #000;
@@ -69,13 +75,13 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 2.5em 7.5em;
+    padding: 2em 7.5em;
   }
 
   .menu__link__start{
     text-decoration: none;
     color: white;
-    padding: 0 1.875em;
+    padding: 0 1em;
   }
 
   .nav__active{
@@ -96,5 +102,14 @@
     height: auto;
     transform: translateX(0);
     background-color: transparent;
+  }
+
+
+
+}
+@media screen and (min-width: 1920px) {
+  .header{
+    padding-left: calc((100vw - 1920px) / 2);
+    padding-right:  calc((100vw - 1920px) / 2);
   }
 }

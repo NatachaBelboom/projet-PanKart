@@ -79,50 +79,25 @@ function dw_custom_post_type()
             'slug' => 'membres'
         ]
     ]);
-    register_post_type('biographie', [
-        'label' => 'Biographie Groupe',
-        'labels' => [
-            'singular_name' => 'Biographie Groupe',
-        ],
-        'description' => 'La biographie du groupe',
-        'public' => true,
-        'menu_position' => 5,
-        'supports' => ['title', 'editor', 'thumbnail'],
-        'menu_icon' => 'dashicons-admin-users',
-        'rewrite' => [
-            'slug' => 'band-bio'
-        ]
-    ]);
-    register_post_type('galerie', [
-        'label' => 'galerie',
-        'labels' => [
-            'singular_name' => 'Galerie',
-        ],
-        'description' => 'Galerie avec les photos/videos du groupe',
-        'public' => true,
-        'menu_position' => 5,
-        'supports' => ['title', 'editor', 'thumbnail'],
-        'menu_icon' => 'dashicons-format-gallery',
-        'rewrite' => [
-            'slug' => 'galery'
-        ]
-    ]);
 
 }
+
 
 /* ****
  *  Return the attributes of an img
  * ****/
 
-function dw_the_img_attributes($id, $sizes = [])
-{
+function dw_the_img_attributes($id, $sizes = []) {
     $src = wp_get_attachment_url($id);
-    $thumbnail_meta = get_post_meta($id);
+    $thumbnail_meta =  get_post_meta($id);
 
 
-    $sizes = array_map(function ($size) use ($id) {
+    $sizes = array_map(function($size) use ($id) {
         $data = wp_get_attachment_image_src($id, $size);
 
+        if(is_null($src)) {
+            $src = $data[0];
+        }
 
         return $data[0] . ' ' . $data[1] . 'w';
     }, $sizes);
@@ -132,6 +107,32 @@ function dw_the_img_attributes($id, $sizes = [])
     $alt = $thumbnail_meta['_wp_attachment_image_alt'][0] ?? null;
 
 
+    return 'src="' . $src . '" srcset="' . $srcset . '" alt="' . $alt . '"';
+}
+
+function dw_the_thumbnail_attributes($sizes = [])
+{
+    // 1. Récupérer le thumbnail pour le post courant dans the loop
+    $thumbnail = get_post(get_post_thumbnail_id());
+    $thumbnail_meta = get_post_meta($thumbnail->ID);
+    $src = null;
+
+    // 2. Récupérer les tailles d'image qui nous intéressent & formater les tailles pour qu'elles soient utilisables dans srcset
+    $sizes = array_map(function($size) use ($thumbnail, &$src) {
+        $data = wp_get_attachment_image_src($thumbnail->ID, $size);
+
+        if(is_null($src)) {
+            $src = $data[0];
+        }
+
+        return $data[0] . ' ' . $data[1] . 'w';
+    }, $sizes);
+
+    // 4. Formater les attributs
+    $srcset = implode(', ', $sizes);
+    $alt = $thumbnail_meta['_wp_attachment_image_alt'][0] ?? null;
+
+    // 5. Retourner les attributs générés
     return 'src="' . $src . '" srcset="' . $srcset . '" alt="' . $alt . '"';
 }
 
@@ -241,7 +242,7 @@ add_action('after_setup_theme', 'dw_add_theme_supports');
 
 function dw_add_theme_supports()
 {
-    add_theme_support('post-thumbnails', ['post', 'project']);
+    add_theme_support('post-thumbnails', ['membres', 'news']);
 }
 
 /* *****

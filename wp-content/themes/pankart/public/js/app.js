@@ -16,14 +16,36 @@ var app = {
     this.burgerMenu.addEventListener('click', function (e) {
       _this.f_burger(e);
     });
+    this.listen = document.querySelectorAll('.lyrics-on');
+    this.paroles = document.querySelectorAll('.lyrics__container');
+    this.listen.forEach(function (l) {
+      l.addEventListener('click', function (e) {
+        _this.play(e);
+      });
+    });
   },
   f_burger: function f_burger(e) {
     e.preventDefault();
-    console.log(this);
     this.leNav.classList.toggle('menu__responsive');
+  },
+  play: function play(e) {
+    e.preventDefault();
+    this.paroles.forEach(function (p) {
+      p.style.opacity = '0';
+    });
+    e.target.nextElementSibling.style.opacity = '1';
   }
 };
 app.init();
+var mesLi = document.querySelectorAll('.bio-membres__list');
+mesLi.forEach(function (li) {
+  li.addEventListener('click', function () {
+    mesLi.forEach(function (otherLi) {
+      otherLi.childNodes[1].style.opacity = '0';
+    });
+    li.childNodes[1].style.opacity = '1';
+  });
+});
 
 /***/ }),
 
